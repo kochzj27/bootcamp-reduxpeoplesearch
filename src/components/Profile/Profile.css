@@ -1,0 +1,44 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 5px 5px gray;
+  border-radius: 25px;
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  height: 400px;
+  }
+
+  .profile-item{
+    /* padding: 0px 10px 0px 10px; */
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .back-button{
+      border-radius: 25px;
+      text-align: center;
+      height: 30px;
+      width: 300px;
+      margin-top: 30px;
+      background-color: white;
+      color: black;
+      border: 1px solid gray;
+      box-shadow: 0px 0px 5px 5px gray;
+      font-size: 14pt;
+      margin: auto;
+      margin-top: 30px;
+  }
+
+  .back-button:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .back-button p{
+    margin-top: 3px;
+    cursor: pointer;
+  }
